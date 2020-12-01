@@ -73,7 +73,7 @@
   
   	<?php 
 
-  				// output the data so we can grab it 
+  				// display the data 
   				// and perform a GET method in our next page
   				$outputData = "SELECT * FROM tablepractice";
 				$executeOutputData = mysqli_query($con, $outputData);
