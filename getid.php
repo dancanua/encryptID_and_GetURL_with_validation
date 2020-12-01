@@ -26,7 +26,7 @@
 			$outputGetData = "SELECT * FROM tablepractice WHERE hashName='$getID'";
 			$executeOutputGetID = mysqli_query($con, $outputGetData);
 
-				// get the date from tablepractice
+				// get the data from tablepractice
 				while ($rows = mysqli_fetch_assoc($executeOutputGetID)) {
 					$id = $rows['id'];
 					$firstName = $rows['firstName'];
